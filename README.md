@@ -69,4 +69,19 @@ install
 Libtorch cu113
 ```
 
+and unzip at
+
+```bash
+C:/Program Files/libtorch
+```
+
+Make sure the folder structure is
+
+```bash
+C:/Program Files/libtorch/bin
+C:/Program Files/libtorch/include
+C:/Program Files/libtorch/lib
+...
+```
+
 ## Enjoy it~

@@ -1,0 +1,7 @@
+# compiled
+**/.vs
+*.obj
+*.deps
+*.cache
+*.log
+*.tlog
