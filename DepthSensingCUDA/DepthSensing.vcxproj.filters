@@ -37,6 +37,7 @@
     <CudaCompile Include="Source\CUDASceneRepChunkGrid.cu">
       <Filter>CUDA\SceneRep</Filter>
     </CudaCompile>
+    <CudaCompile Include="Source\Scan2CAD\Scan2CAD.cu" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\DepthSensing.cpp" />
@@ -167,6 +168,8 @@
     <ClCompile Include="Source\StructureSensor.cpp">
       <Filter>Sensors</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Scan2CAD\hungarian-algorithm-cpp\Hungarian.cpp" />
+    <ClCompile Include="Source\Scan2CAD\Scan2CAD.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\CameraParams.h" />
@@ -333,6 +336,12 @@
     <ClInclude Include="Source\CUDATimer.h">
       <Filter>CUDA</Filter>
     </ClInclude>
+    <ClInclude Include="CAD.h" />
+    <ClInclude Include="GlobalScan2CADState.h" />
+    <ClInclude Include="Source\Scan2CAD\DrawingUtilitiesClass.h" />
+    <ClInclude Include="Source\Scan2CAD\hungarian-algorithm-cpp\Hungarian.h" />
+    <ClInclude Include="Source\Scan2CAD\Scan2CAD.h" />
+    <ClInclude Include="Source\Scan2CAD\VoxUtils.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shaders\QuadDrawer.hlsl">
@@ -347,6 +356,8 @@
     <None Include="Shaders\RayIntervalSplatting.hlsl">
       <Filter>Shader</Filter>
     </None>
+    <None Include="Objects\cup.cmo" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CUDA">
