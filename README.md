@@ -58,7 +58,7 @@ C:/Program Files/Microsoft Visual Studio/2022/Community/Msbuild/Microsoft/VC/v17
 install
 
 ```bash
-Kinect SDK prev. to 2.0
+Kinect SDK 1.8 # prev. to 2.0
 ```
 
 ### Libtorch
