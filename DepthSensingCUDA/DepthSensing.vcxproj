@@ -107,7 +107,7 @@
       <LanguageStandard>stdcpp14</LanguageStandard>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;d3dx11.lib;d3dx9.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;Shlwapi.lib;cudart.lib;cublas.lib;FreeImage.lib;zlib64.lib;legacy_stdio_definitions.lib;torch.lib;torch_cpu.lib;torch_cuda.lib;c10.lib;c10_cuda.lib;caffe2_nvrtc.lib;asmjit.lib;caffe2_detectron_ops_gpu.lib;caffe2_module_test_dynamic.lib;fbgemm.lib;libprotobuf.lib;libprotobuf-lite.lib;libprotoc.lib;mkldnn.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>d3d11.lib;d3dcompiler.lib;d3dx11.lib;d3dx9.lib;dxerr.lib;dxguid.lib;winmm.lib;comctl32.lib;Shlwapi.lib;cudart.lib;cublas.lib;FreeImage.lib;zlib64.lib;legacy_stdio_definitions.lib;c10.lib;torch.lib;torch_cpu.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <SubSystem>Console</SubSystem>
