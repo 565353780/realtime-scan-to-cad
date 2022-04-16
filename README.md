@@ -42,13 +42,13 @@ Microsoft Visual C++ 2010 Service Pack 1 Redistributable Package MFC Security Up
 install
 
 ```bash
-CUDA 11.3
+CUDA 10.1
 ```
 
 and copy files
 
 ```bash
-C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/extras/visual_studio_integration/MSBuildExtensions/*
+C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/extras/visual_studio_integration/MSBuildExtensions/*
 ->
 C:/Program Files/Microsoft Visual Studio/2022/Community/Msbuild/Microsoft/VC/v170/BuildCustomizations/
 ```
@@ -66,7 +66,7 @@ Kinect SDK 1.8 # prev. to 2.0
 install
 
 ```bash
-Libtorch cu113
+Libtorch 1.5.0 cu101
 ```
 
 and unzip at
