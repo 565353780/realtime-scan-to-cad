@@ -1,5 +1,9 @@
 # Real-time Scan2CAD
 
+## Build Date
+
+20220416
+
 ## Source
 
 ```bash
