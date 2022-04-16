@@ -63,7 +63,7 @@ Kinect SDK 1.8 # prev. to 2.0
 
 ### Libtorch
 
-install
+download
 
 ```bash
 Libtorch 1.5.0 cu101
@@ -83,5 +83,13 @@ C:/Program Files/libtorch/include
 C:/Program Files/libtorch/lib
 ...
 ```
+
+add the path
+
+```bash
+C:\Program Files\libtorch\lib
+```
+
+to the System Path
 
 ## Enjoy it~
