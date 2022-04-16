@@ -70,7 +70,7 @@ Kinect SDK 1.8 # prev. to 2.0
 download
 
 ```bash
-Libtorch 1.5.0 cu101
+Libtorch 1.11.0 cu113
 ```
 
 and unzip at
