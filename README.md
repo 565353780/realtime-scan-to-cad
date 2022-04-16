@@ -96,4 +96,12 @@ C:\Program Files\libtorch\lib
 
 to the System Path
 
+## Build
+
+build with Release x64
+
+## Run
+
+TODO
+
 ## Enjoy it~
