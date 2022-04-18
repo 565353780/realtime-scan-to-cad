@@ -1330,10 +1330,10 @@ int main(int argc, char** argv)
 			std::cout << "usage: DepthSensing [fileNameDescGlobalApp] [fileNameDescGlobalTracking]" << std::endl;
 			//fileNameDescGlobalApp = "zParametersDefault.txt";
 			fileNameDescGlobalApp = "zParametersManolisScan.txt";
-			
 			fileNameDescGlobalTracking = "zParametersTrackingDefault.txt";
-			fileNameDescScan2CAD = "zParametersScan2CAD.txt";
 		}
+		fileNameDescScan2CAD = "zParametersScan2CAD.txt";
+
 		std::cout << VAR_NAME(fileNameDescGlobalApp) << " = " << fileNameDescGlobalApp << std::endl;
 		std::cout << VAR_NAME(fileNameDescGlobalTracking) << " = " << fileNameDescGlobalTracking << std::endl;
 		std::cout << VAR_NAME(fileNameDescScan2CAD) << " = " << fileNameDescScan2CAD << std::endl;
