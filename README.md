@@ -10,6 +10,26 @@
 https://github.com/theycallmefm/Realtime-Scan2CAD
 ```
 
+## Download
+
+make a new dir
+
+```bash
+C:/scannet/
+```
+
+and run the script of ScanNet with python2
+
+```bash
+python2 download-scannet.py -o C:/scannet/ --id scene0022_00
+```
+
+then make the path as
+
+```bash
+C:/scannet/sens/scene0022_00.sens
+```
+
 ## Install
 
 ### Visual Studio
@@ -102,6 +122,20 @@ build with Release x64
 
 ## Run
 
-TODO
+### Run With ScanNet dataset
+
+run the bat file directly
+
+```bash
+DepthSensingCUDA/runManolisScan.bat
+```
+
+### Run With Kinect camera
+
+run the bat file directly
+
+```bash
+DepthSensingCUDA/runDefaultBinaryDump.bat
+```
 
 ## Enjoy it~
