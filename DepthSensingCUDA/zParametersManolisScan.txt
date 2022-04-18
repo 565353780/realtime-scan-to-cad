@@ -109,4 +109,4 @@ s_renderToFileDir = "./output/";
 s_offlineProcessing = false;			//slower, but makes sure that all voxels are alllocated and streaming all blocks is enforced
 
 
-s_binaryDumpSensorFile[0] ="C:\scannet\sens\scene0022_00.sens";
+s_binaryDumpSensorFile[0] ="C:\ScanNet\scans\scene0022_00\scene0022_00.sens";

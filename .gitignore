@@ -8,3 +8,7 @@
 *.pch
 *.pdb
 DepthSensingCUDA/x64
+*.p
+*.ply
+*.bmp
+*.hashgrid
