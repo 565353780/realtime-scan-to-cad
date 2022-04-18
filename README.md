@@ -15,19 +15,13 @@ https://github.com/theycallmefm/Realtime-Scan2CAD
 make a new dir
 
 ```bash
-C:/scannet/
+C:/ScanNet/
 ```
 
 and run the script of ScanNet with python2
 
 ```bash
-python2 download-scannet.py -o C:/scannet/ --id scene0022_00
-```
-
-then make the path as
-
-```bash
-C:/scannet/sens/scene0022_00.sens
+python2 download-scannet.py -o C:/ScanNet/ --id scene0022_00
 ```
 
 ## Install
@@ -111,14 +105,21 @@ C:/Program Files/libtorch/lib
 add the path
 
 ```bash
-C:\Program Files\libtorch\lib
+C:/Program Files/libtorch/lib
 ```
 
 to the System Path
 
 ## Build
 
-build with Release x64
+build with
+
+```bash
+Release
+x64
+v143
+c++14
+```
 
 ## Run
 
